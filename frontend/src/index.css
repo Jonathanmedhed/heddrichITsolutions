@@ -3707,7 +3707,12 @@ form .uploaded-file {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 2.6rem;
+}
+@media (max-width: 45rem) {
+  .body .features-gif {
+    margin-bottom: 2.58rem;
+  }
 }
 .body .features-gif .left-content {
   display: flex;
