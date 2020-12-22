@@ -1,3 +1,4 @@
+import path from 'path'
 import express from 'express'
 import dotenv from 'dotenv'
 import morgan from 'morgan'
@@ -11,6 +12,10 @@ const app = express()
 app.use(express.json())
 
 app.use('/api/email', emailRoutes)
+
+if (process.env.NODE_ENV === 'development') {
+	app.use(morgan('dev'))
+}
 
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static(path.join(__dirname, '/frontend/build')))
