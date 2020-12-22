@@ -50,7 +50,7 @@ const images = [
 	{
 		img: loginImg,
 		title: 'Cuentas de Usuario',
-		text: 'Permite a usuarios crear cuentas para monitorear sus ordenes.',
+		text: 'Permite a usuarios crear cuentas para monitorear sus órdenes.',
 	},
 	{
 		img: orderMovilImg,
@@ -60,7 +60,7 @@ const images = [
 	{
 		img: orderImg,
 		title: 'Información de Orden',
-		text: 'Ve el estado, aprueba, anula órdenes y mucho mas.',
+		text: 'Ve el estado, aprueba, anula órdenes y mucho más.',
 	},
 	{
 		img: ordersImg,
@@ -75,8 +75,7 @@ const images = [
 	{
 		img: productsImg,
 		title: 'Listado de Productos',
-		text:
-			'Muestra un listado de los productos, con descuentos aplicados y mostrados, ademas de otras ofertas disponibles.',
+		text: 'Muestra un listado de los productos, con descuentos aplicados, ademas de otras ofertas disponibles.',
 	},
 ]
 
@@ -139,7 +138,7 @@ const Landing = () => {
 		if (!name) {
 			setAlert('Nombre Requerido')
 		} else if (!email) {
-			setAlert('Email Requerido')
+			setAlert('Correo Requerido')
 		} else if (!message) {
 			setAlert('Mensaje Requerido')
 		} else {
@@ -166,9 +165,9 @@ const Landing = () => {
 				<section className="sm-sections">
 					<div className="sm-section">
 						<i className="fas fa-map-marker-alt"></i>
-						<h2>Llegar a Mas Clientes</h2>
+						<h2>Llegar a Más Clientes</h2>
 						<p>
-							Llega a clientes que nunca antes podrían haber alcanzado, ya sea debido a distancia, o
+							Llega a clientes que nunca antes podrías haber alcanzado, ya sea debido a distancia, o
 							simplemente desconocimiento de la localización de su tienda.
 						</p>
 					</div>
@@ -204,7 +203,7 @@ const Landing = () => {
 								<h2>
 									<i className="fas fa-caret-right"></i> Ofertas
 								</h2>
-								<p>Ofrece rebajas, descuentos, combos como 'Lleva 3 y paga 2' y mas.</p>
+								<p>Ofrece descuentos, combos como 'Lleva 3 y paga 2' y más.</p>
 							</div>
 							<div className="feat">
 								<h2>
@@ -246,7 +245,7 @@ const Landing = () => {
 									<i className="far fa-file-alt"></i> Cambia el contenido de la pagina principal.
 								</p>
 								<p>
-									<i class="fas fa-ellipsis-h"></i> Y mucho mas...
+									<i class="fas fa-ellipsis-h"></i> Y mucho más...
 								</p>
 							</div>
 						</div>
@@ -293,7 +292,12 @@ const Landing = () => {
 									<i class="fas fa-check-circle"></i> Vistas para PC y Móvil
 								</p>
 							</div>
-							<button className="btn btn-primary">Ordenar</button>
+							<button
+								onClick={() => contactRef.current.scrollIntoView({ behavior: 'smooth' })}
+								className="btn btn-primary"
+							>
+								Ordenar
+							</button>
 						</div>
 						<div className="premium-info">
 							<div className="top">
@@ -316,10 +320,15 @@ const Landing = () => {
 										<i class="fas fa-check-circle"></i> Vistas para PC y Móvil
 									</p>
 									<p className="item">
-										<i class="fas fa-check-circle"></i> y mas...
+										<i class="fas fa-check-circle"></i> y más...
 									</p>
 								</div>
-								<button className="btn btn-primary">Ordenar</button>
+								<button
+									onClick={() => contactRef.current.scrollIntoView({ behavior: 'smooth' })}
+									className="btn btn-primary"
+								>
+									Ordenar
+								</button>
 							</div>
 						</div>
 					</div>
@@ -330,7 +339,7 @@ const Landing = () => {
 							<div className="feat">
 								<i className="far fa-hand-point-right hide-sm"></i>
 								<i className="far fa-hand-point-down show-sm"></i>
-								<h2>La Forma Mas Sencilla de Comprar</h2>
+								<h2>La Forma Más Sencilla de Comprar</h2>
 								<p>Permite comprar a tus clientes con tan solo unos clicks.</p>
 							</div>
 						</div>
@@ -346,7 +355,7 @@ const Landing = () => {
 					{success ? (
 						<div className="success-info">
 							<h1>Gracias por Contactarnos</h1>
-							<p>Te enviaremos un email en las proximas horas.</p>
+							<p>Te estaremos contactando en las proximas horas.</p>
 						</div>
 					) : (
 						<>
@@ -368,7 +377,7 @@ const Landing = () => {
 									<label>Email</label>
 									<input
 										type="email"
-										placeholder="Ingresar Email"
+										placeholder="Ingresar email"
 										value={email}
 										name="email"
 										onChange={(e) => onChange(e)}

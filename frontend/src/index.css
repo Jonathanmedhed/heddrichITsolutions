@@ -1524,7 +1524,7 @@
 /** Max width */
 /** Backgrounds */
 .bg-primary {
-  background-color: #0e4263;
+  background-color: #296EB4;
   color: #fff;
 }
 .bg-light {
@@ -1614,7 +1614,7 @@
 
 /** Borders */
 .border-primary {
-  border: solid 2px #0e4263;
+  border: solid 2px #296EB4;
 }
 .border-dark {
   border: solid 2px #0b212e;
@@ -1682,7 +1682,7 @@
 
 /** Color */
 .color-primary {
-  color: #0e4263;
+  color: #296EB4;
 }
 .color-dark {
   color: #0b212e;
@@ -1761,15 +1761,15 @@
   transition: all 0.2s ease-in;
 }
 .btn.btn-primary {
-  border: solid 2px #0e4263;
-  background-color: #0e4263;
+  border: solid 2px #296EB4;
+  background-color: #296EB4;
   color: #fff;
 }
 .btn.btn-primary:hover {
-  background: #115179;
+  background: #2e7bc9;
 }
 .btn.btn-reverse {
-  border: solid 2px #0e4263;
+  border: solid 2px #296EB4;
   background-color: whitesmoke;
   color: #333;
 }
@@ -1971,11 +1971,11 @@
   transition: all 0.2s ease-in;
 }
 .btn-icon.btn-primary {
-  background-color: #0e4263;
+  background-color: #296EB4;
   color: #fff;
 }
 .btn-icon.btn-primary:hover {
-  background: #115179;
+  background: #2e7bc9;
 }
 .btn-icon.btn-dark {
   background-color: #0b212e;
@@ -2535,8 +2535,8 @@ Images
   right: -2rem;
   bottom: 0;
   padding: 0.5rem;
-  color: #0e4263;
-  border: solid #0e4263 1px;
+  color: #296EB4;
+  border: solid #296EB4 1px;
   background-color: whitesmoke;
 }
 .jumbo-container .inner .text-container i:hover {
@@ -2567,8 +2567,8 @@ Images
   right: 0;
   bottom: 0;
   padding: 0.5rem;
-  color: #0e4263;
-  border: solid #0e4263 1px;
+  color: #296EB4;
+  border: solid #296EB4 1px;
   background-color: whitesmoke;
 }
 .jumbo-container .logo-showcase i:hover {
@@ -2587,8 +2587,8 @@ Images
   right: 0;
   bottom: 0;
   padding: 0.5rem;
-  color: #0e4263;
-  border: solid #0e4263 1px;
+  color: #296EB4;
+  border: solid #296EB4 1px;
   background-color: whitesmoke;
 }
 .jumbo-container .edit-button i:hover {
@@ -2677,7 +2677,7 @@ Images
 
 /** Color */
 .text-primary {
-  color: #0e4263;
+  color: #296EB4;
 }
 .text-dark {
   color: #0b212e;
@@ -2756,7 +2756,7 @@ body {
   background-color: white;
   color: #333;
   scrollbar-width: thin;
-  scrollbar-color: #0e4263 whitesmoke;
+  scrollbar-color: #296EB4 whitesmoke;
 }
 body::-webkit-scrollbar {
   width: 1rem;
@@ -2766,7 +2766,7 @@ body::-webkit-scrollbar-track {
   border-radius: 0.2rem;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #0e4263;
+  background-color: #296EB4;
   border-radius: 6px;
   border: 1px solid whitesmoke;
 }
@@ -2787,7 +2787,7 @@ img {
 input,
 select,
 textarea {
-  border: solid 2px #0e4263;
+  border: solid 2px #296EB4;
   border-radius: 0.2rem;
   padding: 0.2rem;
 }
@@ -2827,20 +2827,20 @@ textarea {
   justify-content: center;
 }
 .p-carousel .p-carousel-indicators .p-carousel-indicator {
-  border: solid 1px #0e4263;
+  border: solid 1px #296EB4;
   border-radius: 50%;
   height: 1rem;
   width: 1rem;
   margin: 0 0.2rem;
 }
 .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight {
-  background-color: #0e4263;
+  background-color: #296EB4;
 }
 .p-carousel .p-carousel-next,
 .p-carousel .p-carousel-prev {
   color: white;
-  background-color: #0e4263;
-  border: solid 2px #0e4263;
+  background-color: #296EB4;
+  border: solid 2px #296EB4;
   border-radius: 0.2rem;
   font-size: 1.2rem;
 }
@@ -2861,7 +2861,7 @@ form {
   flex-direction: column;
 }
 form label {
-  color: #0e4263;
+  color: #296EB4;
   font-weight: bold;
 }
 form .form-group {
@@ -2905,7 +2905,7 @@ form .form-group .section .section-content {
   justify-content: space-between;
 }
 form .form-group .section .section-content .sec-pos {
-  background-color: #0e4263;
+  background-color: #296EB4;
   color: white;
   padding: 0 0.5rem;
   border-radius: 50%;
@@ -3009,8 +3009,8 @@ form .input-file {
   z-index: -1;
 }
 form .input-label {
-  border: solid 2px #0e4263;
-  background-color: #0e4263;
+  border: solid 2px #296EB4;
+  background-color: #296EB4;
   color: white;
   border-radius: 0.2rem;
   padding: 0.2rem 0.5rem;
@@ -3143,7 +3143,7 @@ form .uploaded-file {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0e4263;
+  background-color: #296EB4;
   color: white;
 }
 .body .features-img .left-content .left-inside {
@@ -3233,7 +3233,7 @@ form .uploaded-file {
 }
 .body .features-img-rev .right-content .right-inside .feat .far.fa-edit {
   font-size: 2.5rem;
-  color: #0e4263;
+  color: #296EB4;
   margin-bottom: 1rem;
 }
 .body .features-img-rev .right-content .right-inside .feat h1 {
@@ -3570,7 +3570,7 @@ form .uploaded-file {
 .body .cost-section {
   position: relative;
   width: 100%;
-  background-color: #0e4263;
+  background-color: #296EB4;
   padding: 5rem;
 }
 .body .cost-section .section-content {
@@ -3624,7 +3624,7 @@ form .uploaded-file {
   margin-top: 0;
 }
 .body .cost-section .basic-info .list .item i {
-  color: #0e4263;
+  color: #296EB4;
 }
 .body .cost-section .basic-info .btn {
   margin-top: 2rem;
@@ -3639,7 +3639,7 @@ form .uploaded-file {
   border-radius: 1rem;
 }
 .body .cost-section .premium-info .top {
-  background-color: #0e4263;
+  background-color: #296EB4;
   color: white;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -3673,7 +3673,7 @@ form .uploaded-file {
   margin-top: 0;
 }
 .body .cost-section .premium-info .bottom .list .item i {
-  color: #0e4263;
+  color: #296EB4;
 }
 .body .cost-section .premium-info .bottom .btn {
   margin-top: 2rem;
@@ -3725,7 +3725,7 @@ form .uploaded-file {
 }
 .body .features-gif .left-content .left-inside .feat i {
   font-size: 2.5rem;
-  color: #0e4263;
+  color: #296EB4;
 }
 .body .features-gif .left-content .left-inside .feat h2 {
   margin-bottom: 1rem;
@@ -3782,7 +3782,7 @@ form .uploaded-file {
 }
 .body .contact-section {
   width: 100%;
-  background-color: #0e4263;
+  background-color: #296EB4;
   color: white;
   display: flex;
   flex-direction: column;
@@ -3824,7 +3824,7 @@ form .uploaded-file {
   max-width: 5rem;
   min-width: 5rem;
   height: 0.2rem;
-  background-color: #0e4263;
+  background-color: #296EB4;
   border-radius: 1rem;
   margin-top: 1rem;
 }
@@ -3891,7 +3891,7 @@ form .uploaded-file {
   width: 100%;
   top: 0;
   opacity: 0.9;
-  background-color: #0e4263;
+  background-color: #296EB4;
   margin-bottom: 2rem;
 }
 .navbar .content {
@@ -3917,7 +3917,7 @@ form .uploaded-file {
 .navbar .content .title .title-content .top {
   position: relative;
   top: 0.7rem;
-  background-color: #0e4263;
+  background-color: #296EB4;
   padding: 0 0.2rem;
   font-size: 0.8rem;
 }
@@ -3931,7 +3931,7 @@ form .uploaded-file {
 .navbar .content .title .title-content .bot {
   position: relative;
   bottom: 0.8rem;
-  background-color: #0e4263;
+  background-color: #296EB4;
   padding: 0 0.2rem;
   font-size: 0.8rem;
 }
