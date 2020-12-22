@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { sendEmail as sendEmailAction } from '../actions/emailActions'
 
 import { Carousel } from 'primereact/carousel'
+import Footer from './Footer'
 import Header from './Header'
 import Loader from './Loader'
 
@@ -409,6 +410,7 @@ const Landing = () => {
 					)}
 				</section>
 			</div>
+			<Footer />
 		</>
 	)
 }

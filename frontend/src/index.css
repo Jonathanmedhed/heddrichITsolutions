@@ -3046,6 +3046,112 @@ form .uploaded-file {
   }
 }
 /*****************************************************************************************************
+* Footer
+*****************************************************************************************************/
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 1rem 0;
+  background-color: white;
+  color: #296EB4;
+  text-align: center;
+}
+footer .social-info {
+  padding: 0.5rem;
+  border: solid 2px #296EB4;
+  border-radius: 0.5rem;
+}
+footer .social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .social a {
+  margin-left: 0.5rem;
+}
+footer .social a:first-child {
+  margin-left: 0;
+}
+footer .social .fas.fa-phone,
+footer .social .fab.fa-whatsapp,
+footer .social .far.fa-envelope,
+footer .social .fab.fa-instagram {
+  color: white;
+  background-color: #296EB4;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+footer .social .fas.fa-phone:hover,
+footer .social .fab.fa-whatsapp:hover,
+footer .social .far.fa-envelope:hover,
+footer .social .fab.fa-instagram:hover {
+  background-color: #256584;
+}
+footer .social .fas.fa-phone.bg-light,
+footer .social .fab.fa-whatsapp.bg-light,
+footer .social .far.fa-envelope.bg-light,
+footer .social .fab.fa-instagram.bg-light {
+  background-color: #256584;
+}
+footer .social .fab.fa-facebook-f {
+  padding: 0.5rem 0.7rem;
+}
+footer .social .fab.fa-whatsapp {
+  padding: 0.5rem 0.6rem;
+}
+footer .logo-section {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo-section .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .logo-section .title .title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo-section .title .title-content .top {
+  position: relative;
+  top: 0.7rem;
+  background-color: white;
+  padding: 0 0.2rem;
+  font-size: 0.8rem;
+}
+footer .logo-section .title .title-content .mid {
+  width: 100%;
+  padding: 0.2rem 2rem;
+  border: solid 2px #296EB4;
+  font-size: 1.5rem;
+  text-align: center;
+}
+footer .logo-section .title .title-content .bot {
+  position: relative;
+  bottom: 0.8rem;
+  background-color: white;
+  padding: 0 0.2rem;
+  font-size: 0.8rem;
+}
+footer .bottom {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+footer .bottom a {
+  color: white;
+  font-weight: bold;
+}
+footer .bottom a:hover {
+  color: #dfdfdf;
+  text-decoration: underline;
+}
+
+/*****************************************************************************************************
 * Landing
 *****************************************************************************************************/
 .body {
