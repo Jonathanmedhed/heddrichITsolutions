@@ -24,6 +24,7 @@ import productsImg from './screens/products.jpg'
 import frameNoPadImg from './screens/frame-no-padding.png'
 import frameHandImg from '../images/mobile-hand.png'
 import gif from '../images/gif.gif'
+import userImg from '../images/user-office.jpg'
 
 const images = [
 	{
@@ -153,15 +154,20 @@ const Landing = () => {
 		<>
 			<Header goTo={goTo} />
 			<div className="body">
-				<section className="text-section">
-					<p className="pre-title">Por que elegirnos?</p>
-					<h1>Pagina Web Ideal para Su Negocio</h1>
-					<p className="text">
-						En <strong>heddrict IT soluciones</strong> creamos páginas web <strong>fáciles de usar</strong>{' '}
-						para sus clientes, <strong>completamente customizables</strong>, otorgándote{' '}
-						<strong>herramientas esenciales</strong> para el manejo de tu negocio
-					</p>
-					<div className="sm-line"></div>
+				<section className="text-img-section">
+					<img src={userImg} alt={'user-img'}></img>
+					<div className="right">
+						<div className="right-content">
+							<p className="pre-title">Por que elegirnos?</p>
+							<h2>Crearemos la Página Web Ideal para Su Negocio</h2>
+							<p className="text">
+								En <strong>heddrict IT soluciones</strong> creamos páginas web{' '}
+								<strong>fáciles de usar y entender</strong>,{' '}
+								<strong>completamente customizables</strong>, otorgándote{' '}
+								<strong>herramientas esenciales</strong> para el manejo de tu negocio
+							</p>
+						</div>
+					</div>
 				</section>
 				<section className="sm-sections">
 					<div className="sm-section">
@@ -278,7 +284,9 @@ const Landing = () => {
 						</div>
 						<div className="basic-info">
 							<p className="pre-title">Básica</p>
-							<h1>$200</h1>
+							<h1>
+								$200 <span>(pago único)</span>
+							</h1>
 							<p className="content">
 								Una página web con las funciones principales, sin modificaciones extras
 							</p>
@@ -303,7 +311,9 @@ const Landing = () => {
 						<div className="premium-info">
 							<div className="top">
 								<p className="pre-title">Customizada</p>
-								<h1>$200+</h1>
+								<h1>
+									$200+ <span>(pago único)</span>
+								</h1>
 							</div>
 							<div className="bottom">
 								<p className="content">Una página web diseñada especialmente para tu tienda</p>

@@ -3160,6 +3160,64 @@ footer .bottom a:hover {
   align-items: center;
   background-color: white;
 }
+.body .text-img-section {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+.body .text-img-section img,
+.body .text-img-section .right {
+  width: 50%;
+}
+.body .text-img-section .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #296EB4;
+  color: white;
+}
+.body .text-img-section .right .right-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body .text-img-section .right .right-content .pre-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.body .text-img-section .right .right-content h2 {
+  max-width: 30rem;
+  font-size: 2rem;
+}
+.body .text-img-section .right .right-content .text {
+  max-width: 30rem;
+  font-size: 1.1rem;
+}
+@media (max-width: 22.5rem) {
+  .body .text-img-section .right .right-content .text {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 45rem) {
+  .body .text-img-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .body .text-img-section img,
+.body .text-img-section .right {
+    width: 100%;
+  }
+  .body .text-img-section img .right-content,
+.body .text-img-section .right .right-content {
+    padding: 2rem;
+  }
+  .body .text-img-section img .right-content h2,
+.body .text-img-section .right .right-content h2 {
+    font-size: 1.8rem;
+    margin: 0 0 1rem 0;
+  }
+}
 .body .text-section {
   display: flex;
   flex-direction: column;
@@ -3715,6 +3773,9 @@ footer .bottom a:hover {
 .body .cost-section .basic-info h1 {
   font-size: 2.5rem;
 }
+.body .cost-section .basic-info h1 span {
+  font-size: 0.8rem;
+}
 .body .cost-section .basic-info .content {
   color: #7c7c7c;
   max-width: 15rem;
@@ -3757,6 +3818,9 @@ footer .bottom a:hover {
 }
 .body .cost-section .premium-info .top h1 {
   font-size: 2.5rem;
+}
+.body .cost-section .premium-info .top h1 span {
+  font-size: 0.8rem;
 }
 .body .cost-section .premium-info .bottom {
   padding: 0 2rem 1rem 2rem;
