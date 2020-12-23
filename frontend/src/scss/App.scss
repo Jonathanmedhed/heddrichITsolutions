@@ -432,11 +432,9 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: $white-light-color;
-
   .text-img-section {
     display: flex;
     flex-direction: row;
-    padding: 1rem 0;
     img,
     .right {
       width: 50%;
@@ -1429,10 +1427,18 @@ footer {
       }
     }
     .right-content {
-      img {
-        max-width: 15rem;
+      position: relative;
+      .mobile {
+        position: absolute;
+        z-index: 2;
+        max-width: 8rem;
         object-fit: cover;
-        margin-top: 5rem;
+        margin-top: 2rem;
+      }
+      .pc {
+        position: relative;
+        max-width: 30rem;
+        object-fit: cover;
       }
     }
   }
@@ -1441,6 +1447,9 @@ footer {
     color: $gray-dark-color;
     padding: 1rem 0 1rem 5rem;
     border-bottom: solid 1px $gray-light-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     .bottom-option {
       margin-left: 1rem;
       font-size: 1.5rem;
@@ -1469,7 +1478,21 @@ footer {
     }
     .jumbo {
       flex-direction: column;
-      max-height: unset;
+      max-height: 40rem;
+      min-height: 40rem;
+      .left-content {
+        color: $white-light-color;
+        p {
+          font-weight: bold;
+        }
+      }
+      .right-content {
+        position: relative;
+        margin-top: 2rem;
+        .mobile {
+          max-width: 8rem;
+        }
+      }
     }
     .bottom {
       display: flex;
@@ -1496,11 +1519,19 @@ footer {
     }
     .jumbo {
       flex-direction: column;
-      max-height: unset;
+      max-height: 40rem;
+      min-height: 40rem;
+      padding: 0 1.5rem 3rem 1.5rem;
       .left-content {
         color: $white-light-color;
         p {
           font-weight: bold;
+        }
+      }
+      .right-content {
+        position: relative;
+        .mobile {
+          max-width: 6rem;
         }
       }
     }

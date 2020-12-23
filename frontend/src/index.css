@@ -3163,7 +3163,6 @@ footer .bottom a:hover {
 .body .text-img-section {
   display: flex;
   flex-direction: row;
-  padding: 1rem 0;
 }
 .body .text-img-section img,
 .body .text-img-section .right {
@@ -4149,16 +4148,29 @@ footer .bottom a:hover {
 .navbar .jumbo .left-content .buttons .btn:first-child {
   margin-right: 1rem;
 }
-.navbar .jumbo .right-content img {
-  max-width: 15rem;
+.navbar .jumbo .right-content {
+  position: relative;
+}
+.navbar .jumbo .right-content .mobile {
+  position: absolute;
+  z-index: 2;
+  max-width: 8rem;
   object-fit: cover;
-  margin-top: 5rem;
+  margin-top: 2rem;
+}
+.navbar .jumbo .right-content .pc {
+  position: relative;
+  max-width: 30rem;
+  object-fit: cover;
 }
 .navbar .bottom {
   background-color: white;
   color: #979797;
   padding: 1rem 0 1rem 5rem;
   border-bottom: solid 1px #d6d6d6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .navbar .bottom .bottom-option {
   margin-left: 1rem;
@@ -4182,7 +4194,21 @@ footer .bottom a:hover {
   }
   .navbar .jumbo {
     flex-direction: column;
-    max-height: unset;
+    max-height: 40rem;
+    min-height: 40rem;
+  }
+  .navbar .jumbo .left-content {
+    color: white;
+  }
+  .navbar .jumbo .left-content p {
+    font-weight: bold;
+  }
+  .navbar .jumbo .right-content {
+    position: relative;
+    margin-top: 2rem;
+  }
+  .navbar .jumbo .right-content .mobile {
+    max-width: 8rem;
   }
   .navbar .bottom {
     display: flex;
@@ -4206,13 +4232,21 @@ footer .bottom a:hover {
   }
   .navbar .jumbo {
     flex-direction: column;
-    max-height: unset;
+    max-height: 40rem;
+    min-height: 40rem;
+    padding: 0 1.5rem 3rem 1.5rem;
   }
   .navbar .jumbo .left-content {
     color: white;
   }
   .navbar .jumbo .left-content p {
     font-weight: bold;
+  }
+  .navbar .jumbo .right-content {
+    position: relative;
+  }
+  .navbar .jumbo .right-content .mobile {
+    max-width: 6rem;
   }
 }
 

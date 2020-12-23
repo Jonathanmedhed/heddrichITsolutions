@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react'
 import { Sidebar } from 'primereact/sidebar'
 import { SlideMenu } from 'primereact/slidemenu'
-import { Menubar } from 'primereact/menubar'
 import mainMobileImg from './phone.png'
+import mainPcImg from '../images/pc.png'
 
 const Header = ({ history, goTo }) => {
 	const [showSidebar, setShowSidebar] = useState(false)
@@ -69,7 +69,8 @@ const Header = ({ history, goTo }) => {
 					</div>
 				</div>
 				<div className="right-content">
-					<img src={mainMobileImg} alt="phone-header"></img>
+					<img className="mobile" src={mainMobileImg} alt="phone-header"></img>
+					<img className="pc" src={mainPcImg} alt="pc-header"></img>
 				</div>
 			</div>
 			<div className="bottom">
