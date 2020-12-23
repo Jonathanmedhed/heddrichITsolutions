@@ -322,13 +322,13 @@ const Landing = () => {
 										<i class="fas fa-check-circle"></i> Colores y estilo ligados a tu marca
 									</p>
 									<p className="item">
-										<i class="fas fa-check-circle"></i> Funciones extras
-									</p>
-									<p className="item">
-										<i class="fas fa-check-circle"></i> Secciones extras
+										<i class="fas fa-check-circle"></i> Funciones y secciones extras
 									</p>
 									<p className="item">
 										<i class="fas fa-check-circle"></i> Vistas para PC y Móvil
+									</p>
+									<p className="item">
+										<i class="fas fa-check-circle"></i> Precio depende de los cambios requeridos
 									</p>
 									<p className="item">
 										<i class="fas fa-check-circle"></i> y más...
