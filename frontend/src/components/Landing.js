@@ -381,7 +381,7 @@ const Landing = () => {
 					{success ? (
 						<div className="success-info">
 							<h1>Gracias por Contactarnos</h1>
-							<p>Te estaremos contactando en las proximas horas.</p>
+							<p>Te estaremos contactando muy pronto.</p>
 						</div>
 					) : (
 						<>

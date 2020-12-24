@@ -498,6 +498,10 @@ footer {
       max-width: 30rem;
       font-size: 2.8rem;
       text-align: center;
+      @media (max-width: 22.5rem) {
+        font-size: 2.5rem;
+        padding: 0 1rem;
+      }
     }
     .text {
       max-width: 30rem;
