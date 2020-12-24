@@ -159,9 +159,9 @@ const Landing = () => {
 					<div className="right">
 						<div className="right-content">
 							<p className="pre-title">Por que elegirnos?</p>
-							<h2>Crearemos la Página Web Ideal para Su Negocio</h2>
+							<h2>Crearemos la Página Web Ideal para Tu Negocio</h2>
 							<p className="text">
-								En <strong>heddrict IT soluciones</strong> creamos páginas web{' '}
+								En <strong>heddrict IT soluciones</strong> creamos páginas web de excelente calidad,{' '}
 								<strong>fáciles de usar y entender</strong>,{' '}
 								<strong>completamente customizables</strong>, otorgándote{' '}
 								<strong>herramientas esenciales</strong> para el manejo de tu negocio
@@ -175,14 +175,14 @@ const Landing = () => {
 						<h2>Llegar a Más Clientes</h2>
 						<p>
 							Llega a clientes que nunca antes podrías haber alcanzado, ya sea debido a distancia, o
-							simplemente desconocimiento de la localización de su tienda.
+							simplemente desconocimiento de la localización de tu tienda.
 						</p>
 					</div>
 					<div className="sm-section">
 						<i className="far fa-credit-card"></i>
-						<h2>Diferentes Modos de Pago</h2>
+						<h2>Diferentes Métodos de Pago</h2>
 						<p>
-							Ofrece diferentes métodos de pagos como <strong>Pago Móvil</strong>,{' '}
+							Ofrece diferentes métodos de pago como <strong>Pago Móvil</strong>,{' '}
 							<strong>Efectivo en $ o Bs</strong> o a través de <strong>Mercado Libre</strong>.
 						</p>
 					</div>
@@ -273,6 +273,21 @@ const Landing = () => {
 						circular={true}
 					></Carousel>
 				</section>
+				<section className="text-section mb-1">
+					<p className="pre-title">Página Web</p>
+					<h1>'Como se vería mi página?'</h1>
+					<p className="text">Ingresa para ver un ejemplo de como podría ser tu página</p>
+					<p className="text">(Contáctanos para darte acceso como administrador)</p>
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						className="btn btn-primary mt-1"
+						href="https://ecommercespanish.herokuapp.com/"
+					>
+						Ingresar
+					</a>
+					<div className="sm-line"></div>
+				</section>
 				<section ref={priceRef} className="cost-section">
 					<div className="section-content">
 						<div className="info">
@@ -305,7 +320,7 @@ const Landing = () => {
 								onClick={() => contactRef.current.scrollIntoView({ behavior: 'smooth' })}
 								className="btn btn-primary"
 							>
-								Ordenar
+								Solicitar
 							</button>
 						</div>
 						<div className="premium-info">
@@ -328,17 +343,17 @@ const Landing = () => {
 										<i class="fas fa-check-circle"></i> Vistas para PC y Móvil
 									</p>
 									<p className="item">
-										<i class="fas fa-check-circle"></i> Precio depende de los cambios requeridos
+										<i class="fas fa-check-circle"></i> y más...
 									</p>
 									<p className="item">
-										<i class="fas fa-check-circle"></i> y más...
+										<i class="fas fa-check-circle"></i> Precio depende de los cambios requeridos
 									</p>
 								</div>
 								<button
 									onClick={() => contactRef.current.scrollIntoView({ behavior: 'smooth' })}
 									className="btn btn-primary"
 								>
-									Ordenar
+									Solicitar
 								</button>
 							</div>
 						</div>
